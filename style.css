@@ -16,6 +16,9 @@
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .principal{
@@ -30,15 +33,20 @@ body{
     grid-template-columns: 50% 50%;
 }
 
+.container__titulo{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
 .container__botao{
     background-color: var(--botao-azul);
     border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
-    font-family:'inter';
-    font-size: 24px;
     display: block;
     text-decoration: none;
+    text-align: center;
 }
 
 .botao__secundario{
@@ -50,6 +58,7 @@ body{
 
 .container__aviso{
     color: var(--cinza-secundario);
+    font-size: 12px;
     text-align: center;
     font-family: 'inter';
 }
